@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#welcome-section{
+        background-color: peachpuff;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+}
+nav{
+    background-color: rgb(124, 89, 53);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: peru;
+    z-index: 1;
+}
+nav a{
+    font-size: 30px;
+    margin: 0 5% 0 5%;
+}
+nav a:hover{
+    color: peru;
+}
+main section{
+    margin: 20px 10% 20 px 10%;
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(3,1fr);
+    grid-column-gap: 10px;
+    justify-items: center;
+}
